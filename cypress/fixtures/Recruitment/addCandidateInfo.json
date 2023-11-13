@@ -1,0 +1,17 @@
+{
+    "jobTitle": "JOB--",
+    "firstName": "USER--",
+    "lastName": "TEST",
+    "vacName": "VACANCY-",
+    "date": "2023-11-28",
+    "canFirstName": "Candidate",
+    "canLastName": "candi",
+    "email": "user1",
+    "interviewName": "Interview",
+    "key": "Vacancy",
+    "interviewTitle": "test",
+    "interviewerPicker": "USER",
+    "interviewMonth": "December",
+    "interviewYear": "2023",
+    "interviewday": "27"
+}
