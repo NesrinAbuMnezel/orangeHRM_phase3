@@ -1,0 +1,3 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Tue Nov 14 00:00:52 IST 2023","Tue Nov 14 00:01:10 IST 2023","18075","","Managing Candidate Statuses Feature","","","","Change the candidate status to ""Interview Passed""",""
+"passed","Tue Nov 14 00:01:12 IST 2023","Tue Nov 14 00:01:27 IST 2023","15417","","Managing Candidate Statuses Feature","","","","Change the candidate status to ""Interview Failed""",""
