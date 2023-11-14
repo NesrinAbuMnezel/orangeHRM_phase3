@@ -1,0 +1,3 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Tue Nov 14 11:16:51 IST 2023","Tue Nov 14 11:17:41 IST 2023","49824","","Verify that the user can upload a txt file for Application Initiated and Hired statuses","","","","Verify that the user can upload a txt file for Hired status",""
+"passed","Tue Nov 14 11:16:30 IST 2023","Tue Nov 14 11:16:50 IST 2023","19483","","Verify that the user can upload a txt file for Application Initiated and Hired statuses","","","","Verify that the user can upload a txt file for Application Initiated status",""
