@@ -1,13 +1,14 @@
+
 const createBundler = require("@bahmutov/cypress-esbuild-preprocessor");
 const addCucumberPreprocessorPlugin =
-require("@badeball/cypress-cucumberpreprocessor").addCucumberPreprocessorPlugin;
+  require("@badeball/cypress-cucumber-preprocessor").addCucumberPreprocessorPlugin;
 const createEsBuildPlugin =
-require("@badeball/cypress-cucumberpreprocessor/esbuild").createEsbuildPlugin;
+  require("@badeball/cypress-cucumber-preprocessor/esbuild").createEsbuildPlugin;
 module.exports = async (on, config) => {
-const bundler = createBundler({
-plugins: [createEsBuildPlugin(config)],
-});
-on("file:preprocessor", bundler);
-await addCucumberPreprocessorPlugin(on, config);
-return config;
+  const bundler = createBundler({
+    plugins: [createEsBuildPlugin(config)],
+  });
+  on("file:preprocessor", bundler);
+  await addCucumberPreprocessorPlugin(on, config);
+  return config;
 };

@@ -2,7 +2,7 @@
   "devDependencies": {
     "@shelex/cypress-allure-plugin": "^2.40.0",
     "allure-commandline": "^2.24.0",
-    "cypress": "^12.14.0",
+    "cypress": "12.14.0",
     "typescript": "^5.2.2"
   },
   "dependencies": {
@@ -11,8 +11,8 @@
     "esbuild": "^0.19.5"
   },
   "scripts": {
-    "regression-allureCh": "cypress run --browser chrome --spec cypress/e2e/OrangeHRM/loginFunctionality.ts --env allure=true",
-    "regression-allureEl": "cypress run --spec cypress/e2e/OrangeHRM/loginFunctionality.ts --env allure=true",
+    "regression-allureCh": "cypress run --browser chrome --spec cypress/e2e/upload-file-spec.feature --env allure=true",
+    "regression-allureEl": "cypress run --spec cypress/e2e/upload-file-spec.feature --env allure=true",
     "allure:clean": "rm -r allure-results/ allure-report cypress/screenshots cypress/videos || true",
     "allure:report": "allure generate allure-results --clean -o allure-report",
     "allure:history": "mv -f allure-report/history allure-report/history && rm -r allure-report || true"
